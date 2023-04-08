@@ -82,7 +82,7 @@ const EditTaskForm = ({ task, users }) => {
             <button
                 className="icon-button"
                 title="Delete"
-                onClick={onDeleteNoteClicked}
+                onClick={onDeleteTaskClicked}
             >
                 <FontAwesomeIcon icon={faTrashCan} />
             </button>
